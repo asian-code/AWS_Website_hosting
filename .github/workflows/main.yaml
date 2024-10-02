@@ -1,0 +1,6 @@
+name: My first github actions workflow
+on: [push]
+
+jobs:
+    testing_github:
+        runs-on: ubuntu-latest
